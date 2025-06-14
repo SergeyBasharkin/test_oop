@@ -1,9 +1,11 @@
 package books;
 
 public class Book {
+
   private String title;
   private Author author;
   private int publishDate;
+  private final String ISBN = "0123456789";
 
   public Book(String title, Author author, int publishDate) {
     this.title = title;

@@ -16,12 +16,6 @@ public class Hello {
         1990
     );
 
-    Book book3 = new Book(
-        "Гарри Поттер",
-        new Author("Джона","Роулинг"),
-        1990
-    );
-
     System.out.println(
         book2.getAuthor().getName()
     );
