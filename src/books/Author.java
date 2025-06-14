@@ -1,5 +1,7 @@
 package books;
 
+import java.util.Objects;
+
 public class Author {
   private String name;
   private String surname;
@@ -15,5 +17,13 @@ public class Author {
 
   public String getSurname() {
     return surname;
+  }
+
+  @Override
+  public String toString() {
+    return "Author{" +
+        "name='" + name + '\'' +
+        ", surname='" + surname + '\'' +
+        '}';
   }
 }
