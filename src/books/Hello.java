@@ -23,7 +23,7 @@ public class Hello {
     );
 
     System.out.println(
-        book2.getAuthor().getName()
+        book2.getAuthor()
     );
 
     System.out.println(book.getTitle());
